@@ -223,7 +223,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="pEp-7u-l4r">
-                                <rect key="frame" x="44" y="0.0" width="808" height="393"/>
+                                <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                             </imageView>
                             <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w1d-iE-SVG">
                                 <rect key="frame" x="64" y="20" width="768" height="308"/>
@@ -249,14 +249,14 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="w1d-iE-SVG" firstAttribute="leading" secondItem="Lwd-Og-d6c" secondAttribute="leading" constant="20" id="3nY-PY-3fk"/>
-                            <constraint firstItem="pEp-7u-l4r" firstAttribute="top" secondItem="Lwd-Og-d6c" secondAttribute="top" id="DfD-eh-DSa"/>
+                            <constraint firstItem="pEp-7u-l4r" firstAttribute="top" secondItem="o6b-W2-OyS" secondAttribute="top" id="DfD-eh-DSa"/>
                             <constraint firstItem="Oz1-Pi-67z" firstAttribute="top" secondItem="w1d-iE-SVG" secondAttribute="bottom" constant="8" id="Evb-d8-1oJ"/>
                             <constraint firstItem="w1d-iE-SVG" firstAttribute="top" secondItem="Lwd-Og-d6c" secondAttribute="top" constant="20" id="LMr-mh-HOx"/>
-                            <constraint firstItem="pEp-7u-l4r" firstAttribute="leading" secondItem="Lwd-Og-d6c" secondAttribute="leading" id="YnV-wA-2jq"/>
+                            <constraint firstItem="pEp-7u-l4r" firstAttribute="leading" secondItem="o6b-W2-OyS" secondAttribute="leading" id="YnV-wA-2jq"/>
                             <constraint firstItem="Lwd-Og-d6c" firstAttribute="bottom" secondItem="Oz1-Pi-67z" secondAttribute="bottom" constant="20" id="im5-if-trW"/>
                             <constraint firstItem="Oz1-Pi-67z" firstAttribute="centerX" secondItem="o6b-W2-OyS" secondAttribute="centerX" id="jpb-IX-9nO"/>
-                            <constraint firstItem="Lwd-Og-d6c" firstAttribute="bottom" secondItem="pEp-7u-l4r" secondAttribute="bottom" id="kkM-Dt-md8"/>
-                            <constraint firstItem="Lwd-Og-d6c" firstAttribute="trailing" secondItem="pEp-7u-l4r" secondAttribute="trailing" id="l5z-bQ-aju"/>
+                            <constraint firstAttribute="bottom" secondItem="pEp-7u-l4r" secondAttribute="bottom" id="kkM-Dt-md8"/>
+                            <constraint firstAttribute="trailing" secondItem="pEp-7u-l4r" secondAttribute="trailing" id="l5z-bQ-aju"/>
                             <constraint firstItem="Lwd-Og-d6c" firstAttribute="trailing" secondItem="w1d-iE-SVG" secondAttribute="trailing" constant="20" id="uGg-Cu-TKc"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Lwd-Og-d6c"/>
