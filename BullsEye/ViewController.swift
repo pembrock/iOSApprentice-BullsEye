@@ -85,12 +85,17 @@ class ViewController: UIViewController {
         slider.value = Float(currentValue)
         round += 1
         updateLabels()
+        let transition = CATransition()
+        transition.type = CATransitionType.fade
+        transition.duration = 1
+        transition.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeOut)
+        view.layer.add(transition, forKey: nil)
     }
     
     @IBAction func startOver() {
-           score = 0
-           round = 0
-           startNewRound()
+        score = 0
+        round = 0
+        startNewRound()
        }
 }
 
